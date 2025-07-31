@@ -7,13 +7,37 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>Benvenuto nella mia app HTML su Tailscale!</h1>
-    <p>Funziona via GitHub Pages + Tailscale.</p>
+  <header>
+    <h1>Tailscale App</h1>
+    <p>Connettiti facilmente con la tua rete privata</p>
+  </header>
 
-    <button id="clickMeBtn">Cliccami!</button>
-    <p id="message"></p>
-  </div>
+  <main>
+    <section class="info">
+      <h2>Cos'è Tailscale?</h2>
+      <p>
+        Tailscale è una rete privata virtuale semplice da configurare, sicura e
+        basata su WireGuard.
+      </p>
+    </section>
+
+    <section class="features">
+      <h2>Funzionalità principali</h2>
+      <ul>
+        <li>Connessione sicura e privata</li>
+        <li>Accesso da qualsiasi dispositivo</li>
+        <li>Configurazione semplice e veloce</li>
+      </ul>
+    </section>
+
+    <section class="cta">
+      <button id="connect-btn">Connetti a Tailscale</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 RedEvil07pro</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
